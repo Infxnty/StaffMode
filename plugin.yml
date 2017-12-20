@@ -1,0 +1,11 @@
+main: com.infxnty.staffmode.Main
+name: StaffMode
+version: 1.0
+description: Go monitor those players.
+commands: 
+  sc:
+    aliases: [staffchat]
+    description: Allows you to chat only with other staff, messages can't be seen by players.
+  staffmode:
+    aliases: [sm]
+    description: Allows you to toggle whether you are in, or out of staffmode.
