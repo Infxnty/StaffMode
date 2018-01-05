@@ -1,3 +1,55 @@
-# Thanks for downloading StaffMode! If you have any issues, please feel free to PM me on Spigot
+#################################################################################################
+#                                                                                               #
+#                                                                                               #
+# Thanks for downloading StaffMode! If you have any issues, please feel free to PM me on Spigot #
+#                                                                                               #
+#                                                                                               #
+#################################################################################################
 
-## MESSAGES ##
+# Variables
+staffModeLogin: true # If set to true, players with the permission 'staffmode.login' will
+                     # automatically be in staff mode
+
+# Commands
+frozenLogout: 'ban %player_name% &cLogged out while frozen! -s'
+
+# Messages (Ok to use & color codes)
+prefix: '&8[&bStaffMode&8] &7» '
+chatPrefix: '&8[&bStaffChat&8] ' # For staffchat only, not global chat
+chatClear: '&7Chat has been cleared by &a' # &a will be the color of the player's name.
+chatUnlock: '&7Chat has been unlocked by &a'
+chatLock: 'Chat has been temporarily locked by &a'
+staffchatOn: 'You are now in staffchat.'
+staffchatOff: 'You are no longer in staffchat.'
+frozen: '&cFREEZE! &7You have been frozen by a staff member. Do &c&nNOT&r&7 log out or you will be banned!'
+frozenActionBar: '&fYou are currently: &bFROZEN'
+staffModeActionBar: '&fYou are currently in: &aStaffMode'
+unFreeze: '&7You are no longer frozen. Sorry for the inconvienence!'
+reload: '&7Successfully reloaded the configuration file!'
+
+# GUI-Titles
+inspectGUI: '&bInspection Tool'
+
+# Item Names
+compass: '&dRandom Teleport Tool'
+axe: '&5WorldEdit Tool'
+book: '&eInspection Tool'
+pick: '&fXRay-Catcher'
+star: '&bPlayer Reports'
+
+# Permissions
+staffChatPerm: 'staffmode.chat'
+lockChatPerm: 'staffmode.chat.lock'
+slowChatPerm: 'staffmode.chat.slow'
+clearChatPerm: 'staffmode.chat.clear'
+freeze: 'staffmode.freeze'
+notify: 'staffmode.notify'
+inspect: 'staffmode.inspect'
+login: 'staffmode.login'
+seeVanishedPlayers: 'staffmode.see' # Doesn't hide players in staffmode
+reportPerm: 'staffmode.report'
+staffMode: 'staffmode.use'
+useCompass: 'staffmode.use.compass'
+useBook: 'staffmode.use.inspect'
+usePick: 'staffmode.use.xray'
+useStar: 'staffmode.use.star'

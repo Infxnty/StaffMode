@@ -2,6 +2,7 @@ main: com.infxnty.staffmode.Main
 name: StaffMode
 version: 1.0
 description: Go monitor those players.
+softdepend: [PlaceholderAPI]
 commands: 
   sc:
     aliases: [staffchat]
@@ -9,3 +10,13 @@ commands:
   staffmode:
     aliases: [sm]
     description: Allows you to toggle whether you are in, or out of staffmode.
+  freeze:
+    description: Freeze players if they are suspected of hacking!
+  chat:
+    aliases: [c]
+    description: Allows you to clear chat if things are getting a little messy.
+  report:
+    description: Report those hackers.
+  inspect:
+    aliases: [ins, inv, seeinv]
+    description: Inspect a player.
